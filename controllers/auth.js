@@ -86,7 +86,7 @@ const resetpassword = async(req, res) => {
             res.send("Password reset successfully")
         }).catch((e) => {
             console.log(e)
-            res.send(encodeURIComponent)
+            res.send("password reset error")
         })
 
     } catch (e) {
